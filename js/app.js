@@ -36,6 +36,7 @@ const mealCardItem = async (url) => {
 }
 
 const displayMealItem = (meals) => {
+    document.getElementById('result_uncought').innerText = '';
     if(!meals){
         document.getElementById('result_uncought').innerText = 'Your Result Not Found';
     }

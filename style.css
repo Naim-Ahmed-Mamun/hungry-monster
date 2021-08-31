@@ -72,3 +72,17 @@ ul{
     font-size: 15px;
 }
 /* ------popup_details end---------- */
+
+/* ---responsive --------------- */
+@media (max-width:576px){
+    .navbar-brand {
+        width: 180px;
+    }
+    .input-group{
+        width: 100% !important;
+    }
+    .pp_content {
+        width: 80%;
+        padding: 15px;
+    }
+}

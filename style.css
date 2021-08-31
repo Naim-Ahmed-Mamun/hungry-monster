@@ -1,0 +1,74 @@
+/* ---global css start---------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* ---global css end---------- */
+
+/* ----header start---------- */
+.navbar-nav .nav-item {
+    margin: 0 15px;
+}
+.navbar-nav .nav-item .nav-link{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 10px;
+    color: #FFAD4E;
+}
+/* ----header end---------- */
+
+/* ------popup_details start---------- */
+.popup_details{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color:black; */
+    z-index: 200;
+    visibility: hidden;
+    opacity: 0;
+}
+.popup_details.open{
+    visibility: visible;
+    opacity: 1;
+}
+.pp_inner{
+    height: 100vh;
+    padding: 0 15px;
+}
+.pp_content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 650px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+}
+.list_item{
+    margin-bottom: 10px;
+}
+.list_item i{
+    display: inline-block;
+    margin-right: 8px;
+    font-size: 15px;
+}
+/* ------popup_details end---------- */
